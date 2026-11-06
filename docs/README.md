@@ -1,4 +1,4 @@
-# My First RAG — Project Docs
+# RAG — Project Docs
 
 A record of how I built my first RAG (Retrieval-Augmented Generation) system over my own study notes: what I did, the commands I ran, and why each step works the way it does.
 
