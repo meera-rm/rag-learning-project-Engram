@@ -100,7 +100,7 @@ To-do:
 - [ ] Hand-check ~5 judged answers (Class 10)
 - [ ] Decide on the groupby `transform` test point
 - [ ] UI (`app.py`, Streamlit)
-- [ ] Digital Twin
+
 
 
 ## Update —: RAGAS + UI
@@ -117,4 +117,4 @@ To-do:
 - [ ] Add "What is ACID?" back to `collect_for_ragas.py`; grow to 8–10 questions
 - [ ] Citation format `[1, 5]` (bug #45)
 - [ ] Hand-check ~5 `my_eval.py` answers
-- [ ] Digital Twin
+
