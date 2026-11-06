@@ -184,8 +184,3 @@ python -m pip check
 
 Then re-run `eval.py` and `my_eval.py` to confirm nothing changed. The catch: any later `pip install` might upgrade those packages again and break things silently, as happened before. You'd need to keep those pins in a `requirements.txt` and always install from it (`python -m pip install -r requirements.txt`). Details: `docs/16-ragas.md` §9.
 
-## Third-party files replaced with my own notes
-22 files written by other authors were moved unchanged to `rag-docs-excluded/` and replaced by
-22 study-notes files in my own words (`*-notes.md`, `note_kind: study-notes`).
-Details, mapping and checks: `docs/18-third-party-content-and-study-notes.md`.
-After this change, re-run: `python index.py` → `python embed.py` → `python eval.py` → `python my_eval.py`.
