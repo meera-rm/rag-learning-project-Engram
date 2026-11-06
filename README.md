@@ -1,4 +1,4 @@
-# My First RAG
+# Rag Learning Project
 
 A local study assistant that answers questions from my own notes (SQL, Java, JavaScript, React, Python, DSA, system design, AI), with citations — and says so when the notes don't cover something.
 
