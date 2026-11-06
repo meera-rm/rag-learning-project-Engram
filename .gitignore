@@ -1,0 +1,11 @@
+.env
+.env.example
+.venv
+.idea
+.venv-ragas
+__pycache__/
+.DS_Store
+chroma_db/
+
+
+

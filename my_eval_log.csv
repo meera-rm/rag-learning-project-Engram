@@ -1,0 +1,5 @@
+eval_date,judge,n,grounded,relevant,complete,retrieval,notes
+2026-11-05 18:26,llama3.1:8b,20,1.00,1.00,0.95,0.90,"first full answer eval: 20 Qs, judge llama3.1:8b, answers qwen2.5:14b. 2 incomplete (COALESCE default-value use, groupby transform — check if test too narrow)"
+2026-11-05 19:30,llama3.1:8b,20,1.00,1.00,0.95,0.93,"added citation check + 3 refusal questions + JSON error handling; 20 answered + 3 refusals. Same 2 incomplete (COALESCE, groupby)"
+2026-11-05 20:19,llama3.1:8b,20,1.00,1.00,0.95,0.90,"CHUNK_WORDS 200 / TOKEN_LIMIT 400: answers unchanged (complete 95%, citations 20/20). Added 3 guardrail tests; they show ✗ only because eval matched one refusal string — guardrails did block them"
+2026-11-05 20:43,llama3.1:8b,20,1.00,1.00,0.95,0.92,"final settings (CHUNK_WORDS 300, TOKEN_LIMIT 480, 8,473 chunks); REFUSALS set includes guardrail messages; redact_pii off. Refusals 6/6 incl. injection + prompt-reveal + empty"

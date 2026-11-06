@@ -1,0 +1,4 @@
+eval_date,scenario,hit_rate_at_5,refusal_rate,notes
+2026-11-05 20:11,retrieval+rerank,0.96,1.00,"CHUNK_WORDS 300 → 200, TOKEN_LIMIT 480 → 400 (10,642 chunks); Jane Doe rename. Same 26/27 + 4/4, but margins shrank: bank transfer 0.89 → 0.28, two pointers 0.45 → 0.37, transformer refusal 0.01 → 0.08"
+2026-11-05 20:29,retrieval+rerank,0.93,1.00,"back to CHUNK_WORDS 300 / TOKEN_LIMIT 480 (8,473 chunks): margins restored (bank transfer 0.89, two pointers 0.45, transformer 0.01). Bank transfer MISSED only because PDF chunk label is ""p. 185"" (content = Chapter 62 ACID)"
+2026-11-05 20:33,retrieval+rerank,0.96,1.00,"eval matches cite + first 120 chars of chunk (PDF pages labelled ""p. N""); bank transfer FOUND 0.89. Final settings: CHUNK_WORDS 300, TOKEN_LIMIT 480, 8,473 chunks. Only miss: debounce (paraphrase)"
